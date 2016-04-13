@@ -22,8 +22,8 @@ You can test any website, and provide the link to anyone you like by adding thei
 
 ### Adding Basic Auth
 
-  $ heroku config:set USER=username
-  $ heroku config:set PASS=password
+    $ heroku config:set USER=username
+    $ heroku config:set PASS=password
 
 ## License
 
