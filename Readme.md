@@ -25,6 +25,3 @@ You can test any website, and provide the link to anyone you like by adding thei
     $ heroku config:set USER=username
     $ heroku config:set PASS=password
 
-## License
-
-MIT
