@@ -4,6 +4,7 @@ This tool is for everyone who needs a quick and easy way to test their website d
 
 This tool is based on Responsive Design Testing by (https://github.com/mattkersley/Responsive-Design-Testing) and Heroku Static Provider (https://github.com/nulltask/heroku-static-provider).
 
+demo http://rdt-ssl.herokuapp.com/?https://ja.wikipedia.org
 
 ## Installation
 
