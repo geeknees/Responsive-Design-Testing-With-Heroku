@@ -10,6 +10,13 @@ app.set('port', process.env.PORT || 3000);
 if (user && pass) {
   app.use(express.basicAuth(user, pass));
 }
+app.use (function (req, res, next) {
+  if (req.secure) {
+    res.redirect('http://' + req.headers.host + req.url);
+  } else {
+    next();
+  }
+});
 
 app.use(express.logger('dev'));
 app.use(express.compress());
