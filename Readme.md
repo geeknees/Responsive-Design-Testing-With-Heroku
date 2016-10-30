@@ -1,5 +1,7 @@
 # Responsive Design Testing With Heroku
 
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+
 This tool is for everyone who needs a quick and easy way to test their website design in multiple screen widths on Heroku.
 
 This tool is based on Responsive Design Testing by (https://github.com/mattkersley/Responsive-Design-Testing) and Heroku Static Provider (https://github.com/nulltask/heroku-static-provider).
