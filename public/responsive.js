@@ -1,5 +1,9 @@
 var defaultURL = 'bing.com'; //<---- CHANGE TO YOUR WEBSITE URL
 
+if(location.protocol == 'https:') {
+  location.replace(location.href.replace(/https:/, 'http:'));
+}
+
 //show loading graphic
 function showLoader(id) {
   $('#' + id + ' img').fadeIn('slow');
