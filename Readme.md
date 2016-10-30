@@ -20,7 +20,12 @@ You need sign-in or sign-up to Heroku.
 
 ## Notes
 
-###  Permalink style testing
+### Use The http Protocol
+
+⭕️ http://
+❌ https://
+
+### Permalink style testing
 You can test any website, and provide the link to anyone you like by adding their URL to the end of the testing page address. This may not work for external sites however due to browser security restrictions.
 
 ### Adding Basic Auth
